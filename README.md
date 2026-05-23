@@ -68,7 +68,7 @@ developer runs git push
   artifacts saved (7 days)
 ```
 
-## GitLab vs GitHub Actions — Key Differences
+## GitLab vs GitHub Actions - Key Differences
 
 | Feature | GitLab CI/CD | GitHub Actions |
 |---------|-------------|----------------|
@@ -108,12 +108,12 @@ two different layers of the same defense.
 ## Key Concepts Demonstrated
 
 - **GitHub Actions** workflow triggered automatically on every push
-- **Parallel jobs** — all four scanners run simultaneously, not sequentially
-- **fetch-depth: 0** — full git history fetched for accurate secret scanning
-- **continue-on-error** — pipeline reports findings without hard blocking
-- **GitHub secrets** — SNYK_TOKEN stored securely, never exposed in logs
-- **Job summaries** — Gitleaks renders a formatted findings table in the GitHub UI
-- **Push Protection** — GitHub's native layer that catches secrets before pipeline even runs
+- **Parallel jobs** - all four scanners run simultaneously, not sequentially
+- **fetch-depth: 0** - full git history fetched for accurate secret scanning
+- **continue-on-error** - pipeline reports findings without hard blocking
+- **GitHub secrets** - SNYK_TOKEN stored securely, never exposed in logs
+- **Job summaries** - Gitleaks renders a formatted findings table in the GitHub UI
+- **Push Protection** - GitHub's native layer that catches secrets before pipeline even runs
 
 ## Why fetch-depth: 0 Matters
 
@@ -155,4 +155,4 @@ trivy image secret-scanner-demo
 
 ## Author
 
-Jerome — DevSecOps project
+Jerome - DevSecOps project
