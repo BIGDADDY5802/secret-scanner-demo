@@ -10,7 +10,7 @@ Snyk, and Trivy.
 - Runs **TruffleHog** for deeper entropy-based and verification-capable scanning
 - Runs **Snyk** for dependency and code vulnerability scanning
 - Runs **Trivy** for Docker image vulnerability and secret scanning
-- Leverages **GitHub Push Protection** — blocks secrets before they even land in the repo
+- Leverages **GitHub Push Protection** - blocks secrets before they even land in the repo
 - Generates artifacts saved for 7 days as audit trail
 
 ## Tools Used
